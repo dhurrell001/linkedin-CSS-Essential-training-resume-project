@@ -57,6 +57,7 @@ h1{
 header{
     background : #2f3061;
     color : #f7fff7;
+    text-align: center;
 }
 
 
@@ -111,5 +112,19 @@ header{
 
 footer{
     background: #343434;
-    color : #f7fff7;
+    color : #f7fff7;text-align: center;
+
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacts_list a{
+    padding: 15px;
+    display: inline-block;
 }
